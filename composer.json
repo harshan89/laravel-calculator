@@ -1,10 +1,14 @@
 {
-    "name": "harshan/src",
+    "name": "harshan/calculator",
     "authors": [
         {
-            "name": "harshanmo",
+            "name": "harshan89",
             "email": "harshan.morawaka@qualitapps.com"
         }
     ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+    },
     "require": {}
 }
